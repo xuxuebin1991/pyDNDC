@@ -1,0 +1,436 @@
+DNDC_Input_Parameters
+----------------------------------------
+Site_infomation
+
+__Site_name                                                         test
+__Simulated_years                                                     20
+__Latitude                                                        28.355
+__Daily_record                                                         0
+__Unit_system                                                          0
+__None                                                                 0
+__None                                                                 0
+__None                                                                 0
+__None                                                                 0
+__None                                                                 0
+----------------------------------------
+Climate_data
+
+__Climate_data_type                                                    1
+__N_in_rainfall                                                      3.0
+__Air_NH3_concentration                                              1.2
+__Air_CO2_concentration                                         420.0000
+__Climate_files                                                        1
+1                                                                 E:\pyDNDC\data\climate\S1\2022.txt
+__Climate_file_mode                                                    1
+__CO2_increase_rate                                               0.0000
+__None                                                                 0
+__None                                                                 0
+__None                                                                 0
+__None                                                                 0
+__None                                                                 0
+----------------------------------------
+Soil_data
+
+__Land_use_ID                                                          2
+__Soil_texture_ID                                                     10
+__Bulk_density                                                    1.0000
+__pH                                                              7.0000
+__Clay_fraction                                                     0.02
+__Porosity                                                         0.492
+__Bypass_flow                                                     0.0000
+__Field_capacity                                                    0.63
+__Wilting_point                                                      0.3
+__Hydro_conductivity                                               0.008
+__Top_layer_SOC                                                      0.1
+__Litter_fraction                                                   0.02
+__Humads_fraction                                                   0.05
+__Humus_fraction                                                    0.93
+__Adjusted_litter_factor                                          1.0000
+__Adjusted_humads_factor                                          1.0000
+__Adjusted_humus_factor                                           1.0000
+__Humads_C/N                                                     10.0000
+__Humus_C/N                                                      10.0000
+__Black_C                                                         0.0000
+__Black_C_C/N                                                   500.0000
+__SOC_profile_A                                                   0.0800
+__SOC_profile_B                                                   1.4000
+__Initial_nitrate_ppm                                             0.5000
+__Initial_ammonium_ppm                                            0.0500
+__Soil_microbial_index                                            1.0000
+__Soil_slope                                                      0.0000
+__Lateral_influx_index                                            1.0000
+__Watertable_depth                                                1.0000
+__Water_retension_layer_depth                                     9.9900
+__Soil_salinity                                                   0.0000
+__SCS_curve_use                                                        0
+__None                                                                 0
+__None                                                                 0
+__None                                                                 0
+__None                                                                 0
+__None                                                                 0
+----------------------------------------
+Crop_data
+
+Cropping_systems                                                       2
+
+__Cropping_system                                                      1
+__Total_years                                                         10
+__Years_of_a_cycle                                                     2
+
+____Year                                                               1
+____Crops                                                              2
+______Crop#                                                            1
+______Crop_ID                                                         20
+______Planting_month                                                   6
+______Planting_day                                                     1
+______Harvest_month                                                   10
+______Harvest_day                                                     20
+______Harvest_year                                                     1
+______Residue_left_in_field                                            1
+______Maximum_yield                                              3377.58
+______Leaf_fraction                                                 0.23
+______Stem_fraction                                                 0.24
+______Root_fraction                                                 0.12
+______Grain_fraction                                                0.41
+______Leaf_C/N                                                        85
+______Stem_C/N                                                        85
+______Root_C/N                                                        85
+______Grain_C/N                                                       45
+______Accumulative_temperature                                    2000.0
+______Optimum_temperature                                           25.0
+______Water_requirement                                           2000.0
+______N_fixation_index                                              1.05
+______Vascularity                                                      1
+______If_cover_crop                                                    0
+______If_perennial_crop                                                0
+______If_transplanted                                                  1
+______Tree_maturity_age                                  -107374000.0000
+______Tree_current_age                                            0.0000
+______Tree_max_leaf                                               0.0000
+______Tree_min_leaf                                               0.0000
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+
+______Crop#                                                            2
+______Crop_ID                                                          2
+______Planting_month                                                  11
+______Planting_day                                                     1
+______Harvest_month                                                    5
+______Harvest_day                                                      1
+______Harvest_year                                                     2
+______Residue_left_in_field                                            1
+______Maximum_yield                                               3120.1
+______Leaf_fraction                                                 0.21
+______Stem_fraction                                                 0.21
+______Root_fraction                                                 0.17
+______Grain_fraction                                                0.41
+______Leaf_C/N                                                        95
+______Stem_C/N                                                        95
+______Root_C/N                                                        95
+______Grain_C/N                                                       40
+______Accumulative_temperature                                    1300.0
+______Optimum_temperature                                           22.0
+______Water_requirement                                            200.0
+______N_fixation_index                                               1.0
+______Vascularity                                                      0
+______If_cover_crop                                                    0
+______If_perennial_crop                                                0
+______If_transplanted                                                  0
+______Tree_maturity_age                                  -107374000.0000
+______Tree_current_age                                            0.0000
+______Tree_max_leaf                                               0.0000
+______Tree_min_leaf                                               0.0000
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+
+----------------------------------------
+____Till_applications                                                  2
+______Till#                                                            1
+______Till_month                                                       6
+______Till_day                                                         1
+______Till_method                                                      1
+______Till#                                                            2
+______Till_month                                                      11
+______Till_day                                                         1
+______Till_method                                                      1
+----------------------------------------
+____Fertilizer_applications                                            0
+____Fertilization_option                                               0
+----------------------------------------
+____Manure_applications                                                0
+----------------------------------------
+____Film_applications                                                  0
+____Method                                                             2
+----------------------------------------
+____Flood_applications                                                 0
+____Water_control                                                      0
+____Flood_water_N                                                 0.0000
+____Leak_rate                                                     0.0000
+____Water_gather_index                                            1.0000
+____Watertable_file                                                 None
+____Empirical_para_1                                              0.0000
+____Empirical_para_2                                              0.0000
+____Empirical_para_3                                              0.0000
+____Empirical_para_4                                              0.0000
+____Empirical_para_5                                              0.0000
+____Empirical_para_6                                              0.0000
+----------------------------------------
+____Irrigation_applications                                            0
+____Irrigation_control                                                 0
+____Irrigation_index                                              0.0000
+____Irrigation_method                                                  0
+----------------------------------------
+____Grazing_applications                                               0
+----------------------------------------
+____Cut_applications                                                   0
+
+
+____Year                                                               2
+____Crops                                                              2
+______Crop#                                                            1
+______Crop_ID                                                         20
+______Planting_month                                                   6
+______Planting_day                                                     1
+______Harvest_month                                                   10
+______Harvest_day                                                     20
+______Harvest_year                                                     1
+______Residue_left_in_field                                            1
+______Maximum_yield                                              3377.58
+______Leaf_fraction                                                 0.23
+______Stem_fraction                                                 0.24
+______Root_fraction                                                 0.12
+______Grain_fraction                                                0.41
+______Leaf_C/N                                                        85
+______Stem_C/N                                                        85
+______Root_C/N                                                        85
+______Grain_C/N                                                       45
+______Accumulative_temperature                                    2000.0
+______Optimum_temperature                                           25.0
+______Water_requirement                                           2000.0
+______N_fixation_index                                              1.05
+______Vascularity                                                      1
+______If_cover_crop                                                    0
+______If_perennial_crop                                                0
+______If_transplanted                                                  1
+______Tree_maturity_age                                  -107374000.0000
+______Tree_current_age                                            0.0000
+______Tree_max_leaf                                               0.0000
+______Tree_min_leaf                                               0.0000
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+
+______Crop#                                                            2
+______Crop_ID                                                          2
+______Planting_month                                                  11
+______Planting_day                                                     1
+______Harvest_month                                                    5
+______Harvest_day                                                      1
+______Harvest_year                                                     2
+______Residue_left_in_field                                            1
+______Maximum_yield                                               3120.1
+______Leaf_fraction                                                 0.21
+______Stem_fraction                                                 0.21
+______Root_fraction                                                 0.17
+______Grain_fraction                                                0.41
+______Leaf_C/N                                                        95
+______Stem_C/N                                                        95
+______Root_C/N                                                        95
+______Grain_C/N                                                       40
+______Accumulative_temperature                                    1300.0
+______Optimum_temperature                                           22.0
+______Water_requirement                                            200.0
+______N_fixation_index                                               1.0
+______Vascularity                                                      0
+______If_cover_crop                                                    0
+______If_perennial_crop                                                0
+______If_transplanted                                                  0
+______Tree_maturity_age                                  -107374000.0000
+______Tree_current_age                                            0.0000
+______Tree_max_leaf                                               0.0000
+______Tree_min_leaf                                               0.0000
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+
+----------------------------------------
+____Till_applications                                                  2
+______Till#                                                            1
+______Till_month                                                       6
+______Till_day                                                         1
+______Till_method                                                      1
+______Till#                                                            2
+______Till_month                                                      11
+______Till_day                                                         1
+______Till_method                                                      1
+----------------------------------------
+____Fertilizer_applications                                            0
+____Fertilization_option                                               0
+----------------------------------------
+____Manure_applications                                                0
+----------------------------------------
+____Film_applications                                                  0
+____Method                                                             2
+----------------------------------------
+____Flood_applications                                                 0
+____Water_control                                                      0
+____Flood_water_N                                                 0.0000
+____Leak_rate                                                     0.0000
+____Water_gather_index                                            1.0000
+____Watertable_file                                                 None
+____Empirical_para_1                                              0.0000
+____Empirical_para_2                                              0.0000
+____Empirical_para_3                                              0.0000
+____Empirical_para_4                                              0.0000
+____Empirical_para_5                                              0.0000
+____Empirical_para_6                                              0.0000
+----------------------------------------
+____Irrigation_applications                                            0
+____Irrigation_control                                                 0
+____Irrigation_index                                              0.0000
+____Irrigation_method                                                  0
+----------------------------------------
+____Grazing_applications                                               0
+----------------------------------------
+____Cut_applications                                                   0
+
+
+__Cropping_system                                                      2
+__Total_years                                                         10
+__Years_of_a_cycle                                                     1
+
+____Year                                                               1
+____Crops                                                              2
+______Crop#                                                            1
+______Crop_ID                                                         20
+______Planting_month                                                   4
+______Planting_day                                                     1
+______Harvest_month                                                    7
+______Harvest_day                                                      1
+______Harvest_year                                                     1
+______Residue_left_in_field                                            1
+______Maximum_yield                                              3377.58
+______Leaf_fraction                                                 0.23
+______Stem_fraction                                                 0.24
+______Root_fraction                                                 0.12
+______Grain_fraction                                                0.41
+______Leaf_C/N                                                        85
+______Stem_C/N                                                        85
+______Root_C/N                                                        85
+______Grain_C/N                                                       45
+______Accumulative_temperature                                    2000.0
+______Optimum_temperature                                           25.0
+______Water_requirement                                           2000.0
+______N_fixation_index                                              1.05
+______Vascularity                                                      1
+______If_cover_crop                                                    0
+______If_perennial_crop                                                0
+______If_transplanted                                                  1
+______Tree_maturity_age                                  -107374000.0000
+______Tree_current_age                                            0.0000
+______Tree_max_leaf                                               0.0000
+______Tree_min_leaf                                               0.0000
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+
+______Crop#                                                            2
+______Crop_ID                                                          2
+______Planting_month                                                   7
+______Planting_day                                                    10
+______Harvest_month                                                   11
+______Harvest_day                                                      1
+______Harvest_year                                                     1
+______Residue_left_in_field                                            1
+______Maximum_yield                                               3120.1
+______Leaf_fraction                                                 0.21
+______Stem_fraction                                                 0.21
+______Root_fraction                                                 0.17
+______Grain_fraction                                                0.41
+______Leaf_C/N                                                        95
+______Stem_C/N                                                        95
+______Root_C/N                                                        95
+______Grain_C/N                                                       40
+______Accumulative_temperature                                    1300.0
+______Optimum_temperature                                           22.0
+______Water_requirement                                            200.0
+______N_fixation_index                                               1.0
+______Vascularity                                                      0
+______If_cover_crop                                                    0
+______If_perennial_crop                                                0
+______If_transplanted                                                  1
+______Tree_maturity_age                                  -107374000.0000
+______Tree_current_age                                            0.0000
+______Tree_max_leaf                                               0.0000
+______Tree_min_leaf                                               0.0000
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+______None                                                             0
+
+----------------------------------------
+____Till_applications                                                  2
+______Till#                                                            1
+______Till_month                                                       4
+______Till_day                                                         1
+______Till_method                                                      1
+______Till#                                                            2
+______Till_month                                                       7
+______Till_day                                                        10
+______Till_method                                                      1
+----------------------------------------
+____Fertilizer_applications                                            0
+____Fertilization_option                                               0
+----------------------------------------
+____Manure_applications                                                0
+----------------------------------------
+____Film_applications                                                  0
+____Method                                                             2
+----------------------------------------
+____Flood_applications                                                 0
+____Water_control                                                      0
+____Flood_water_N                                                 0.0000
+____Leak_rate                                                     0.0000
+____Water_gather_index                                            1.0000
+____Watertable_file                                                 None
+____Empirical_para_1                                              0.0000
+____Empirical_para_2                                              0.0000
+____Empirical_para_3                                              0.0000
+____Empirical_para_4                                              0.0000
+____Empirical_para_5                                              0.0000
+____Empirical_para_6                                              0.0000
+----------------------------------------
+____Irrigation_applications                                            0
+____Irrigation_control                                                 0
+____Irrigation_index                                              0.0000
+____Irrigation_method                                                  0
+----------------------------------------
+____Grazing_applications                                               0
+----------------------------------------
+____Cut_applications                                                   0
+
